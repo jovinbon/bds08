@@ -1,0 +1,30 @@
+.filter-container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+.filter-input {
+  height: 50px;
+  background-color: var(--primary-color);
+  color: var(--grey-light-90-color);
+  font-size: 18px;
+  font-family: 'Ubuntu';
+  border: 1px solid var(--grey-light-90-color);
+  border-radius: 4px;
+  width: 100%;
+  padding-left: 15px;
+
+}
+
+/*.filter-input:first-of-type {
+  margin-right: 5px;
+}*/
+
+.filter-input::placeholder {
+  font-size: 18px;
+  color: var(--grey-light-90-color);
+}

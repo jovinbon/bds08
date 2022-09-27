@@ -1,0 +1,10 @@
+.app-container {
+  padding: 0 10px;
+}
+
+.sales-overview-container {
+  display: flex;
+  /*justify-content: space-between;*/
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
