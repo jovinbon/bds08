@@ -1,5 +1,3 @@
-export type Store = '?storeId=1' | '?storeId=2' | '?storeId=3' | '?storeId=4';
-
 export type SalesByDate = {
   date: string;
   sum: number;
@@ -16,7 +14,7 @@ export type ChartSeriesData = {
 };
 
 export type FilterData = {
-  storeId?: Store;
+  storeId?: string;
 };
 
 export type PieChartConfig = {

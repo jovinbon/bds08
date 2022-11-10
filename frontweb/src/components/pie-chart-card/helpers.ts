@@ -12,7 +12,7 @@ export const buildPieChartConfig = (labels: string[] = [], name: string) => {
       offsetY: 0,
       style: {
         color: '#FFF',
-        fontSize: '18px',
+        fontSize: '16px',
         fontFamily: 'Ubuntu'
       }
     },
@@ -25,7 +25,7 @@ export const buildPieChartConfig = (labels: string[] = [], name: string) => {
         colors: ['#b4bed2']
       },
       fontFamily: 'Ubuntu',
-      fontSize: '18px',
+      fontSize: '10px',
       itemMargin: {
         vertical: 5
       }
@@ -50,7 +50,7 @@ export const buildPieChartConfig = (labels: string[] = [], name: string) => {
             total: {
               show: true,
               showAlways: true,
-              fontSize: '24px',
+              fontSize: '20px',
               color: '#ABB1C0',
               fontFamily: 'Ubuntu',
               formatter: function () {

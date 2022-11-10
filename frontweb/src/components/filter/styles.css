@@ -1,12 +1,3 @@
-.filter-container {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  height: 130px;
-  display: flex;
-  align-items: center;
-  padding: 10px 15px;
-}
-
 .filter-input {
   height: 50px;
   background-color: var(--primary-color);
@@ -19,10 +10,6 @@
   padding-left: 15px;
 
 }
-
-/*.filter-input:first-of-type {
-  margin-right: 5px;
-}*/
 
 .filter-input::placeholder {
   font-size: 18px;

@@ -38,9 +38,22 @@ function App() {
     <>
       <Header />
       <div className="app-container">
-        <Filter onFilterChange={onFilterChange} />
-        <h2 className="sales-by-date-quantity">{formatPrice(totalSum)}</h2>
-        <PieChartCard name="Vendas" labels={salesByStore?.labels} series={salesByStore?.series} />
+        <div className="filter-container base-card">
+          <Filter onFilterChange={onFilterChange} />
+        </div>
+        <div className="pie-chart-card base-card">
+          <div className="show-sum-label">
+            <h2 className="sales-by-date-quantity">{formatPrice(totalSum)}</h2>
+            <p className="total-vendas">Total vendas</p>
+          </div>
+          <div className="chart">
+            <PieChartCard
+              name="Vendas"
+              labels={salesByStore?.labels}
+              series={salesByStore?.series}
+            />
+          </div>
+        </div>
       </div>
     </>
   );

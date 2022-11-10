@@ -12,7 +12,7 @@ export const buildFilterParams = (
   extraParams?: Record<string, unknown>
 ) => {
   return {
-    store: filterData?.storeId,
-    ...extraParams
+    ...extraParams,
+    storeId: filterData?.storeId
   };
 };
